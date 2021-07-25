@@ -602,6 +602,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1482625576}
   - component: {fileID: 1482625575}
+  - component: {fileID: 1482625578}
   - component: {fileID: 1482625577}
   m_Layer: 0
   m_Name: stage
@@ -676,8 +677,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1482625577
-BoxCollider2D:
+--- !u!58 &1482625577
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -689,19 +690,21 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.042298675, y: -0.081965685}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 7.92, y: 7.81}
-    newSize: {x: 7.92, y: 7.81}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
+  m_Offset: {x: 0, y: -0.07385556}
   serializedVersion: 2
-  m_Size: {x: 6.820239, y: 6.800097}
-  m_EdgeRadius: 0
+  m_Radius: 4.846267
+--- !u!114 &1482625578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482625574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 680b6277b653d49409b42d7fb6b4030a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1977316073
 GameObject:
   m_ObjectHideFlags: 0
