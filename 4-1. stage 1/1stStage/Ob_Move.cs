@@ -9,5 +9,6 @@ public class Ob_Move : MonoBehaviour
     void Start()
     {
         rbody = GetComponent<Rigidbody2D>();
+        rbody.constraints = RigidbodyConstraints2D.FreezeRotation;
     }
 }
