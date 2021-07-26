@@ -12,7 +12,7 @@ public class OnMouseDown_MovePrevious : MonoBehaviour
         sceneIndex = SceneManager.GetActiveScene().buildIndex;
     }
 
-    public void MovePrevious()
+    void OnMouseDown()
     {
         SceneManager.LoadScene(sceneIndex - 1);
     }
