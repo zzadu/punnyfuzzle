@@ -7,7 +7,7 @@ public class MobileTouch : MonoBehaviour
 {
     public string sceneName;
 
-    void OnMouseDown()
+    public void OnMouseDown()
     {
      SceneManager.LoadScene(sceneName);
     }

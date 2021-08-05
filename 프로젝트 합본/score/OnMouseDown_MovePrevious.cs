@@ -5,15 +5,18 @@ using UnityEngine.SceneManagement;
 
 public class OnMouseDown_MovePrevious : MonoBehaviour
 {
-    int sceneIndex;
+    public static string replayScene;
 
-    void Start()
+    public void OnMouseDown()
     {
-        sceneIndex = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(replayScene);
     }
 
-    public void MovePrevious()
+    void Update()
     {
-        SceneManager.LoadScene(sceneIndex - 1);
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene(replayScene);
+        }
     }
 }
