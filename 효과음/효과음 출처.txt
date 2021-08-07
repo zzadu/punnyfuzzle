@@ -1,0 +1,17 @@
+<사용시 출처 필요>
+coins, https://freesound.org/people/ProjectsU012/sounds/341695/
+
+error-bleep-2, sound https://freesound.org/people/original_sound/sounds/372199/
+
+level-complete, https://freesound.org/people/jivatma07/sounds/122255/
+
+okay, https://freesound.org/people/Scrampunk/sounds/345299/
+
+
+
+
+coins: 스테이지에서 별 획득할 때
+
+beep-error-1, error-bleep-2: 스테이지에서 장애물에 부딪혔을 때
+
+success, level-complete, okay: 미션 성공했을 때, 골인 지점에 도달했을 때, 스코어 화면으로 전환할 때
