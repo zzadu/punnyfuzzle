@@ -5,4 +5,5 @@ https://fonts.google.com/specimen/Kanit?thickness=8
 https://www.dafont.com/theme.php?cat=115&page=1
 https://answers.unity.com/questions/544897/rotate-2d-object-on-mouse-drag-relative-to-its-pos.html
 https://iconmonstr.com/
-https://www.unminus.com/tagged/happy
+https://freesound.org/people/LittleRobotSoundFactory/sounds/270404/
+https://freesound.org/people/themusicalnomad/sounds/253886/
